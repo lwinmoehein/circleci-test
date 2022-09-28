@@ -23,4 +23,8 @@ class CircleCIController extends Controller
             ->json(null, Response::HTTP_NO_CONTENT);
     }
 
+    public function hello(){
+
+    }
+
 }
